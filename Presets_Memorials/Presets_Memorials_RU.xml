@@ -27,7 +27,7 @@
         <combo key="material" text="Material" values="concrete,granite,metal,plastic,steel,stone,wood" default="concrete" />
         <text key="start_date" text="Start date" />
         <text key="wikipedia" text="Wikipedia" default="ru:Ленин, Владимир Ильич" />
-        <text key="wikidata" text="Wikidata" />
+        <text key="wikidata" text="Wikidata" default="Q1394" />
         </item>
       </group>
     </group>
