@@ -8,7 +8,7 @@
           be.name="Помнікі"
           icon="presets/sightseeing/memorial.svg"
       >
-        <item name="В.И. Ленину" type="node,closedway,multipolygon">
+        <item name="ru: В.И. Ленину" type="node,closedway,multipolygon">
           <key key="historic" value="memorial" />
 		  <text key="name" text="Name" default="В.И. Ленину" />
           <text key="memorial:subject" text="Subject" default="Владимир Ильич Ленин" />
@@ -28,7 +28,30 @@
           <text key="start_date" text="Start date" />
           <text key="wikipedia" text="Wikipedia (memorial)" ru.text="Википедия (памятник)" be.text="Вікіпедыя (помнік)" />
           <text key="wikidata" text="Wikidata (memorial)" ru.text="Викидата (памятник)" be.text="Вікідата (помнік)" />
-          <text key="subject:wikipedia" text="Wikipedia (person)" ru.text="Википедия (персона)" be.text="Вікіпедыя (персона)"  ru.default="ru:Ленин, Владимир Ильич" be.default="be:Уладзімір Ільіч Ленін" />
+          <text key="subject:wikipedia" text="Wikipedia (person)" ru.text="Википедия (персона)" be.text="Вікіпедыя (персона)"  default="ru:Ленин, Владимир Ильич" />
+          <text key="subject:wikidata" text="Wikidata (person)" ru.text="Викидата (персона)" be.text="Вікідата (персона)"  default="Q1394" />
+        </item>
+        <item name="be: У.І. Леніну" type="node,closedway,multipolygon">
+          <key key="historic" value="memorial" />
+		  <text key="name" text="Name" default="У.І. Леніну" />
+          <text key="memorial:subject" text="Subject" default="Уладзімір Ільіч Ленін" />
+          <combo 
+            key="memorial" 
+            text="Type" 
+            values_context="memorial"
+            default="statue"
+            >
+            <list_entry value="bust" short_description="Like a statue, but only showing the upper half of a person." />
+            <list_entry value="plaque" short_description="A commemorative sign, often mounted on a wall." />
+            <list_entry value="statue" short_description="A statue representing a person." />
+          </combo>
+          <text key="inscription" text="Inscription" />
+          <text key="artist_name" text="Artist Name" />
+          <combo key="material" text="Material" values="concrete,granite,metal,plastic,steel,stone,wood" default="concrete" />
+          <text key="start_date" text="Start date" />
+          <text key="wikipedia" text="Wikipedia (memorial)" ru.text="Википедия (памятник)" be.text="Вікіпедыя (помнік)" />
+          <text key="wikidata" text="Wikidata (memorial)" ru.text="Викидата (памятник)" be.text="Вікідата (помнік)" />
+          <text key="subject:wikipedia" text="Wikipedia (person)" ru.text="Википедия (персона)" be.text="Вікіпедыя (персона)"  default="be:Уладзімір Ільіч Ленін" />
           <text key="subject:wikidata" text="Wikidata (person)" ru.text="Викидата (персона)" be.text="Вікідата (персона)"  default="Q1394" />
         </item>
       </group>
